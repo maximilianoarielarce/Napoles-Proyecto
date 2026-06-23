@@ -2,7 +2,7 @@
 export const siteName = 'Nápoles';
 
 export const whatsappData = {
-    phone: '5491132143895',
+    phone: '5491154577564',
     message: 'Hola, quiero reservar una mesa en Nápoles',
 };
 
