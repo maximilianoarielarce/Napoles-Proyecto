@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+/* import Link from 'next/link'; */
 import RichText from '@/components/RichText';
 import HomePageDivider from '@/components/home-page/Divider';
 import LocalImage from '@/components/LocalImage';
@@ -35,9 +35,9 @@ const HomeSeasons: React.FC<Props> = ({ title, description, seasons }) => {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 {seasons.map((season, index) => (
-                    <Link
+                   /*  <Link */<div
                         key={index}
-                        href={`/seasonal-menu?s=${season.slug}`}
+                        /* href={`/seasonal-menu?s=${season.slug}`} */
                         className="flex relative"
                     >
                         <div className="container">
@@ -53,7 +53,7 @@ const HomeSeasons: React.FC<Props> = ({ title, description, seasons }) => {
                             />
                             <div className="absolute top-0 left-0 w-full h-full bg-black/40" />
                         </div>
-                    </Link>
+                    {/* </Link> */}</div>
                 ))}
             </div>
             <HomePageDivider />
