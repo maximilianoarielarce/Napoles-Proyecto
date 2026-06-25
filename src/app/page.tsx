@@ -23,13 +23,12 @@ const HomePage: React.FC = () => {
     return (
         <div>
             <HomeHero {...homeData.hero} />
-            <HomeMenu {...homeData.menuSection} />
+           {/*  <HomeMenu {...homeData.menuSection} /> */}
             <HomeSeasons {...homeData.seasonsSection} />
             <HomeAmbience {...homeData.ambienceSection} />
-            <HomeSpecials
-                {...homeData.specialsSection}
+           {/*  <HomeSpecials {...homeData.specialsSection}
                 items={foodItemsData}
-            />
+            /> */}
             <HomeEvents {...homeData.eventsSection} />
             <HomeTestimonials {...homeData.testimonialsSection} />
         </div>

@@ -88,12 +88,12 @@ export const homeData = {
             },
         ],
     },
-    menuSection: {
+    /* menuSection: {
         title: 'Menú',
         description:
             '<p>Aca vas a encontrar nuestros platos principales. Cada plato es una obra de arte, con ingredientes frescos y sabores únicos. Disfruta de una experiencia culinaria única en Nápoles.</p>',
         meals: [
-            {
+             {
                 title: 'Almuerzo',
                 slug: 'lunch',
                 description:
@@ -108,32 +108,58 @@ export const homeData = {
                 cover_image: '/images/006-meal-2.jpg',
             },
         ],
-    },
+    }, */
     seasonsSection: {
-        title: 'Platos de temporada',
+        title: 'Menú',
         description:
-            '<p>Cada estación trae ingredientes únicos a nuestra cocina. Descubrí propuestas que celebran lo mejor del momento, con la esencia de la cocina italiana hecha en Berazategui.</p>',
+            '<p>Aca vas a encontrar nuestros platos principales. Cada plato es una obra de arte, con ingredientes frescos y sabores únicos. Disfruta de una experiencia culinaria única en Napoles.</p>',
         seasons: [
             {
-                title: 'Primavera',
+                title: 'Carnes',
                 slug: 'spring',
                 cover_image: '/images/007-season-home-0.png',
             },
             {
-                title: 'Verano',
+                title: 'Pizza',
                 slug: 'summer',
                 cover_image: '/images/008-season-home-1.png',
             },
             {
-                title: 'Otoño',
+                title: 'Ensaladas',
                 slug: 'fall',
                 cover_image: '/images/009-season-home-2.png',
             },
             {
-                title: 'Invierno',
+                title: 'Menu ejecutivo (plato principal + bebida + postre o cafe)',
+                slug: 'winter',
+                cover_image: '/images/calzone-menu ejecutivo.jpg',
+            },
+            {
+                title: 'Entradas',
+                slug: 'winter',
+                cover_image: '/images/Rabas entradas.png',
+            },
+            {
+                title: 'Risotto',
+                slug: 'winter',
+                cover_image: '/images/risotto.png',
+            },
+            {
+                title: 'Pastas',
                 slug: 'winter',
                 cover_image: '/images/010-season-home-3.png',
             },
+            {
+                title: 'Pescados',
+                slug: 'winter',
+                cover_image: '/images/pescados.png',
+            },
+            {
+                title: 'Menu infantil',
+                slug: 'winter',
+                cover_image: '/images/milanesa con pure.png',
+            },
+            
         ],
     },
     ambienceSection: {
@@ -163,11 +189,11 @@ export const homeData = {
             },
         ],
     },
-    specialsSection: {
+   /*  specialsSection: {
         title: 'Especiales del día',
         description:
             '<p>Cada día preparamos platos especiales con ingredientes frescos. Consultá en el local o por WhatsApp las propuestas de la jornada.</p>',
-    },
+    }, */
     eventsSection: {
         title: 'Eventos',
         description:
@@ -176,14 +202,14 @@ export const homeData = {
             {
                 title: 'Música en vivo',
                 description:
-                    '<p>Algunos viernes disfrutá de música en vivo mientras cenás. Ambiente íntimo, buena comida y la calidez de siempre en Berazategui.</p>',
+                    '<p>En algunas ocaciones vas a disfrutár de música en vivo mientras cenas o almorzas. Ambiente íntimo, buena comida y la calidez de siempre en Berazategui.</p>',
                 date: 'Consultar en Instagram',
                 cover_image: '/images/016-event-home-0.jpg',
             },
             {
-                title: 'Noches especiales',
+                title: 'Pizza Libre',
                 description:
-                    '<p>Celebramos fechas importantes con menús y propuestas únicas. Reservá con anticipación por WhatsApp para asegurar tu mesa.</p>',
+                    '<p>Los miércoles, jueves y domingos la noche se vive a pleno. Elegí tu propuesta ideal desde las 19:30 hs: Pizza libre + Cerveza tirada + Postre, o disfrutá de nuestras Pastas con un 2x1 en tragos. Reservá tu mesa por WhatsApp con anticipación, ¡te esperamos!</p>',
                 date: 'Seguinos para novedades',
                 cover_image: '/images/017-event-home-1.jpg',
             },

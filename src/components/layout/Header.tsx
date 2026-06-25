@@ -19,6 +19,17 @@ interface NavItem {
 const navLinkClass =
     'text-lg leading-none tracking-[-0.41px] uppercase md:text-sm';
 
+const MENU_HREF = '/#menu';
+const EVENTOS_HREF = '/#eventos';
+
+const scrollToMenu = (): void => {
+    document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' });
+};
+
+const scrollToEventos = (): void => {
+    document.getElementById('eventos')?.scrollIntoView({ behavior: 'smooth' });
+};
+
 const Header: React.FC = () => {
     const navItemsDOM = useRef<HTMLUListElement | null>(null);
     const [showMobileMenu, setShowMobileMenu] = useState<boolean>(false);
@@ -29,11 +40,25 @@ const Header: React.FC = () => {
         setShowMobileMenu(false);
     }, [pathname]);
 
-    const handleMobileNavClick = (
+    const handleNavClick = (
         e: React.MouseEvent<HTMLAnchorElement>,
         href: string,
         external = false,
     ): void => {
+        if (href === MENU_HREF && pathname === '/') {
+            e.preventDefault();
+            setShowMobileMenu(false);
+            scrollToMenu();
+            return;
+        }
+
+        if (href === EVENTOS_HREF && pathname === '/') {
+            e.preventDefault();
+            setShowMobileMenu(false);
+            scrollToEventos();
+            return;
+        }
+
         if (!showMobileMenu) return;
 
         e.preventDefault();
@@ -54,8 +79,8 @@ const Header: React.FC = () => {
 
     const nav: NavItem[] = [
         { label: 'Inicio', href: '/' },
-        { label: 'Menú', href: '/menu' },
-        { label: 'Eventos', href: '/events' },
+        { label: 'Menú', href: '/#menu' },
+        { label: 'Eventos', href: '/#eventos' },
         { label: 'Reservas', href: getWhatsAppUrl(), external: true },
     ];
 
@@ -108,7 +133,7 @@ const Header: React.FC = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         onClick={(e) =>
-                                            handleMobileNavClick(
+                                            handleNavClick(
                                                 e,
                                                 item.href,
                                                 true,
@@ -122,7 +147,7 @@ const Header: React.FC = () => {
                                     <Link
                                         href={item.href}
                                         onClick={(e) =>
-                                            handleMobileNavClick(e, item.href)
+                                            handleNavClick(e, item.href)
                                         }
                                         className={navLinkClass}
                                     >
@@ -135,7 +160,7 @@ const Header: React.FC = () => {
                             <Link
                                 href="/contact"
                                 onClick={(e) =>
-                                    handleMobileNavClick(e, '/contact')
+                                    handleNavClick(e, '/contact')
                                 }
                                 className={`${navLinkClass} md:hidden`}
                             >

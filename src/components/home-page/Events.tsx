@@ -18,11 +18,11 @@ interface Props {
 
 const HomeEvents: React.FC<Props> = ({ title, description, events }) => {
     return (
-        <section className="overflow-hidden">
+        <section id="eventos" className="overflow-hidden">
             <div className="container">
                 <div className="flex flex-col items-center mb-8 lg:mb-20">
                     <div className="text-xs leading-none mb-2.5 lg:text-base lg:leading-none lg:mb-[14px]">
-                        [ 5 ]
+                        [ 3 ]
                     </div>
                     <h2 className="text-lg leading-none uppercase font-Gloock mb-4 lg:text-5xl lg:leading-none lg:mb-6">
                         {title}

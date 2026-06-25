@@ -1,4 +1,4 @@
-'use client';
+/* 'use client';
 
 import HomePageDivider from '@/components/home-page/Divider';
 import React, { useState, useMemo } from 'react';
@@ -125,4 +125,4 @@ const HomeSpecials: React.FC<Props> = ({ title, description, items }) => {
     );
 };
 
-export default HomeSpecials;
+export default HomeSpecials; */

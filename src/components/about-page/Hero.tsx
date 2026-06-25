@@ -51,9 +51,9 @@ const AboutHero: React.FC<Props> = ({
                     html={description}
                     className="text-sm leading-[1.3] tracking-[-0.41px] uppercase text-appGray-700 mb-6 lg:text-[32px] lg:leading-[1.3] lg:mb-14"
                 />
-                <Btn to="/menu" className="uppercase max-w-max mx-auto">
+            {/*     <Btn to="/menu" className="uppercase max-w-max mx-auto">
                     <span>Browse menu</span>
-                </Btn>
+                </Btn> */}
             </div>
         </section>
     );

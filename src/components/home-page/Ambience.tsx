@@ -20,7 +20,7 @@ const HomeAmbience: React.FC<Props> = ({ title, description, items }) => {
             <div className="container">
                 <div className="flex flex-col items-center">
                     <div className="text-xs leading-none mb-2.5 lg:text-base lg:leading-none lg:mb-[14px]">
-                        [ 3 ]
+                        [ 2 ]
                     </div>
                     <h2 className="text-lg leading-none uppercase font-Gloock mb-4 lg:text-5xl lg:leading-none lg:mb-6">
                         {title}

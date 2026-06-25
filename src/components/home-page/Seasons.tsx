@@ -18,11 +18,11 @@ interface Props {
 
 const HomeSeasons: React.FC<Props> = ({ title, description, seasons }) => {
     return (
-        <section>
+        <section id="menu">
             <div className="container">
                 <div className="flex flex-col items-center mb-8 lg:mb-[88px]">
                     <div className="text-xs leading-none mb-2.5 lg:text-base lg:leading-none lg:mb-[14px]">
-                        [ 2 ]
+                        [ 1 ]
                     </div>
                     <h2 className="text-lg leading-none uppercase font-Gloock mb-4 lg:text-5xl lg:leading-none lg:mb-6">
                         {title}
