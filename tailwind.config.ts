@@ -37,7 +37,7 @@ const config: Config = {
                 },
             },
             fontFamily: {
-                Helvetica: ['Helvetica', 'sans-serif'],
+                sans: ['var(--font-inter)', 'sans-serif'],
                 Gloock: ['var(--font-gloock)', 'sans-serif'],
             },
         },

@@ -3,7 +3,7 @@ import '@/styles/_main.scss';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
-import { Gloock } from 'next/font/google';
+import { Gloock, Inter } from 'next/font/google';
 import { Metadata } from 'next';
 import { siteName } from '@/data/content';
 
@@ -11,6 +11,11 @@ const gloock = Gloock({
     weight: ['400'],
     subsets: ['latin'],
     variable: '--font-gloock',
+});
+
+const inter = Inter({
+    subsets: ['latin'],
+    variable: '--font-inter',
 });
 
 const metaTitle = siteName;
@@ -43,7 +48,8 @@ const RootLayout: React.FC<PropsWithChildren> = ({ children }) => {
     return (
         <html lang="es">
             <body
-                className={`${gloock.variable} font-Helvetica overflow-x-hidden bg-appBody text-appText`}
+                /* className={`${gloock.variable} font-Helvetica overflow-x-hidden bg-appBody text-appText`} */
+                className={`${gloock.variable} ${inter.variable} font-sans overflow-x-hidden bg-appBody text-appText`}
             >
                 <div className="overflow-hidden flex flex-col min-h-screen">
                     <Header />
