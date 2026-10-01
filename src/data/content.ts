@@ -130,9 +130,11 @@ export const homeData = {
                 cover_image: '/images/009-season-home-2.png',
             },
             {
-                title: 'Menu ejecutivo (plato principal + bebida + postre o cafe)',
+                title: 'Menu ejecutivo',
+                subtitle: 'plato principal + bebida + postre o cafe',
                 slug: 'winter',
                 cover_image: '/images/calzone-menu ejecutivo.jpg',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1790878181/Men%C3%BA_Ejecutivo.pdf',
             },
             {
                 title: 'Entradas',
@@ -148,6 +150,7 @@ export const homeData = {
                 title: 'Pastas',
                 slug: 'winter',
                 cover_image: '/images/010-season-home-3.png',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1790878183/Pastas.pdf',
             },
             {
                 title: 'Pescados',

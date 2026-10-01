@@ -6,8 +6,10 @@ import LocalImage from '@/components/LocalImage';
 
 interface Season {
     title: string;
+    subtitle?: string;
     slug: string;
     cover_image: string;
+    pdf_url?: string;
 }
 
 interface Props {
@@ -45,6 +47,11 @@ const HomeSeasons: React.FC<Props> = ({ title, description, seasons }) => {
                                 <h3 className="text-xl leading-none font-Gloock text-white uppercase lg:text-[32px] lg:leading-none">
                                     {season.title}
                                 </h3>
+                                {season.subtitle && (
+                                    <span className="mt-2 max-w-[280px] text-xs leading-[1.2] text-white/90 lg:text-sm">
+                                        ({season.subtitle})
+                                    </span>
+                                )}
                             </div>
                             <LocalImage
                                 src={season.cover_image}
@@ -52,6 +59,15 @@ const HomeSeasons: React.FC<Props> = ({ title, description, seasons }) => {
                                 className="absolute top-0 left-0 w-full h-full object-cover"
                             />
                             <div className="absolute top-0 left-0 w-full h-full bg-black/40" />
+                            {season.pdf_url && (
+                                <a
+                                    href={season.pdf_url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label={`Abrir menú de ${season.title} en una nueva pestaña`}
+                                    className="absolute inset-0 z-20 cursor-pointer"
+                                />
+                            )}
                         </div>
                     {/* </Link> */}</div>
                 ))}
