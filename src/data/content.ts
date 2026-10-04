@@ -115,19 +115,28 @@ export const homeData = {
             '<p>Aca vas a encontrar nuestros platos principales. Cada plato es una obra de arte, con ingredientes frescos y sabores únicos. Disfruta de una experiencia culinaria única en Napoles.</p>',
         seasons: [
             {
+                title: 'BEBIDAS',
+                slug: 'winter',
+                cover_image: '/images/bebidas.jpg',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1791126674/Vinos_y_Bebidas.pdf',
+            },
+            {
                 title: 'Carnes',
                 slug: 'spring',
                 cover_image: '/images/007-season-home-0.png',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1790878182/Carnes.pdf',
             },
             {
                 title: 'Pizza',
                 slug: 'summer',
                 cover_image: '/images/008-season-home-1.png',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1790878181/Pizzas_y_Calzones.pdf',
             },
             {
                 title: 'Ensaladas',
                 slug: 'fall',
                 cover_image: '/images/009-season-home-2.png',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1791126673/Ensaladas.pdf',
             },
             {
                 title: 'Menu ejecutivo',
@@ -140,11 +149,13 @@ export const homeData = {
                 title: 'Entradas',
                 slug: 'winter',
                 cover_image: '/images/Rabas entradas.png',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1791126673/Entradas.pdf',
             },
             {
                 title: 'Risotto',
                 slug: 'winter',
                 cover_image: '/images/risotto.png',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1790878182/Risotto.pdf',
             },
             {
                 title: 'Pastas',
@@ -156,11 +167,19 @@ export const homeData = {
                 title: 'Pescados',
                 slug: 'winter',
                 cover_image: '/images/pescados.png',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1790878182/Pescados.pdf',
             },
             {
                 title: 'Menu infantil',
                 slug: 'winter',
                 cover_image: '/images/milanesa con pure.png',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1790878181/Men%C3%BA_Infantil.pdf',
+            },
+            {
+                title: 'POSTRES',
+                slug: 'winter',
+                cover_image: '/images/tiramisu.jpg',
+                pdf_url: 'https://res.cloudinary.com/q1nr5zxg/image/upload/v1790878182/Postres.pdf',
             },
             
         ],
