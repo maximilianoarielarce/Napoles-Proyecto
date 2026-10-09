@@ -2,7 +2,7 @@
 export const siteName = 'Nápoles';
 
 export const whatsappData = {
-    phone: '5491154577564',
+    phone: '5491163616346',
     message: 'Hola, quiero reservar una mesa en Nápoles',
 };
 
@@ -27,11 +27,11 @@ export const footerData = {
             items: [
                 {
                     label: 'WhatsApp',
-                    href: 'https://wa.me/5491132143895',
+                    href: 'https://wa.me/5491163616346',
                 },
                 {
-                    label: '011 3214-3895',
-                    href: 'tel:+5491132143895',
+                    label: '+54 11 6361-6346',
+                    href: 'tel:+5491163616346',
                 },
             ],
         },
@@ -44,7 +44,7 @@ export const footerData = {
                 },
                /*  {
                     label: 'Reservas',
-                    href: 'https://wa.me/5491132143895?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20N%C3%A1poles',
+                    href: 'https://wa.me/5491163616346?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20N%C3%A1poles',
                 }, */
             ],
         },
@@ -434,7 +434,7 @@ export const contactData = {
     },
     title: 'Contacto',
     description:
-        '<p>Av. 21 n° 5312, Berazategui<br />Buenos Aires, Argentina<br /><br />(<a href="tel:+5491132143895" target="_blank">011 3214-3895</a> <strong>· </strong><a href="https://www.instagram.com/napolescucinaitaliana" target="_blank">@napolescucinaitaliana</a>)</p>',
+        '<p>Av. 21 n° 5312, Berazategui<br />Buenos Aires, Argentina<br /><br />(<a href="tel:+5491163616346" target="_blank">+54 11 6361-6346</a> <strong>· </strong><a href="https://www.instagram.com/napolescucinaitaliana" target="_blank">@napolescucinaitaliana</a>)</p>',
     map_image: '/images/001-hero-map.jpg',
     maps_url: googleMapsUrl,
 };
@@ -533,6 +533,6 @@ export const legalData = [
 /*     {
         title: 'Contacto',
         content:
-            '<p>Para consultas sobre esta política, escribinos por <a href="https://wa.me/5491132143895" target="_blank">WhatsApp</a> o <a href="https://www.instagram.com/napolescucinaitaliana" target="_blank">Instagram</a>.</p>',
+            '<p>Para consultas sobre esta política, escribinos por <a href="https://wa.me/5491163616346" target="_blank">WhatsApp</a> o <a href="https://www.instagram.com/napolescucinaitaliana" target="_blank">Instagram</a>.</p>',
     }, */
 ];
