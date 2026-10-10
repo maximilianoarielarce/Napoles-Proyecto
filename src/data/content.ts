@@ -88,27 +88,6 @@ export const homeData = {
             },
         ],
     },
-    /* menuSection: {
-        title: 'Menú',
-        description:
-            '<p>Aca vas a encontrar nuestros platos principales. Cada plato es una obra de arte, con ingredientes frescos y sabores únicos. Disfruta de una experiencia culinaria única en Nápoles.</p>',
-        meals: [
-             {
-                title: 'Almuerzo',
-                slug: 'lunch',
-                description:
-                    '<p>Cortá la rutina del mediodía con un almuerzo como en casa. En Nápoles te invitamos a hacer una pausa y disfrutar de nuestras opciones ejecutivas y platos tradicionales, hechos con amor y materia prima premium. Vení a recargar energías en un ambiente cómodo, relajado y con la calidez de nuestra atención de siempre.</p>',
-                cover_image: '/images/005-meal-1.jpg',
-            },
-            {
-                title: 'Cena',
-                slug: 'dinner',
-                description:
-                    '<p>Para nosotros, la cena es el momento más sagrado del día. Es cuando encendemos nuestro horno para prepararte la verdadera pizza napolitana de bordes gruesos, y cuando servimos nuestras pastas artesanales hechas a mano, como nuestro exclusivo pappardelle relleno de carne braseada al vino por 6 horas. Te invitamos a cerrar el día en un ambiente íntimo y acogedor, disfrutando de sabores reales con la calidez de nuestra atención</p>',
-                cover_image: '/images/006-meal-2.jpg',
-            },
-        ],
-    }, */
     seasonsSection: {
         title: 'Menú',
         description:
@@ -211,11 +190,6 @@ export const homeData = {
             },
         ],
     },
-   /*  specialsSection: {
-        title: 'Especiales del día',
-        description:
-            '<p>Cada día preparamos platos especiales con ingredientes frescos. Consultá en el local o por WhatsApp las propuestas de la jornada.</p>',
-    }, */
     eventsSection: {
         title: 'Eventos',
         description:
@@ -469,39 +443,6 @@ export const reservationData = {
         title: 'Reservas',
     },
     title: 'Reservas',
-};
-
-export const seasonalData = {
-    seasons: [
-        {
-            title: 'Primavera',
-            slug: 'spring',
-            description:
-                '<p>Ingredientes frescos y platos ligeros que celebran la llegada de la primavera.</p>',
-            cover_image: '/images/040-seasonal-0.png',
-        },
-        {
-            title: 'Verano',
-            slug: 'summer',
-            description:
-                '<p>Propuestas frescas y sabores vibrantes para los días más cálidos del año.</p>',
-            cover_image: '/images/041-seasonal-1.png',
-        },
-        {
-            title: 'Otoño',
-            slug: 'fall',
-            description:
-                '<p>Sabores más intensos y platos reconfortantes con productos de estación.</p>',
-            cover_image: '/images/042-seasonal-2.png',
-        },
-        {
-            title: 'Invierno',
-            slug: 'winter',
-            description:
-                '<p>Pastas, guisos y platos de horno para disfrutar el frío con calidez italiana.</p>',
-            cover_image: '/images/043-seasonal-3.png',
-        },
-    ],
 };
 
 export const legalData = [
